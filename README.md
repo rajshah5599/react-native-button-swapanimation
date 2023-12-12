@@ -1,14 +1,12 @@
 # reactnative-button-swapanimation
 
-# Button Swap Animation
-
 This is a React Native component that provides a button with a swiping animation. The button has a customizable background color, active opacity, and text content. When pressed, the button smoothly swipes to the right and changes its text content.
 
 ## Usage
 
 ```jsx
 import React from "react";
-import ButtonSwapAnimation from "./ButtonSwapAnimation"; // Replace with the correct path
+import ButtonSwapAnimation from "./ButtonSwapAnimation"; 
 
 const App = () => {
   return (
@@ -47,4 +45,3 @@ export default App;
 - **container**: Style for the main container of the component.
 - **buttonText**: Style for the text inside the button.
 
-Feel free to customize the styles and use this component in your React Native project.

@@ -1,0 +1,27 @@
+{
+  "name": "react-native-button-swapanimation",
+  "version": "1.1.1",
+  "description": "# Button Swap Animation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajshah5599/reactnative-button-swapanimation.git"
+  },
+  "author": "Rajshah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajshah5599/reactnative-button-swapanimation/issues"
+  },
+  "homepage": "https://github.com/rajshah5599/reactnative-button-swapanimation#readme",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.71.10"
+  },
+  "keywords": [
+    "update",
+    "code"
+  ]
+}
