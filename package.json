@@ -18,7 +18,7 @@
   "homepage": "https://github.com/rajshah5599/reactnative-button-swapanimation#readme",
   "peerDependencies": {
     "react": "18.2.0",
-    "react-native": "0.71.10"
+    "react-native": "0.73.0"
   },
   "keywords": [
     "update",
