@@ -1,47 +1,47 @@
-# reactnative-button-swapanimation
+# Button Swap Animation
 
-This is a React Native component that provides a button with a swiping animation. The button has a customizable background color, active opacity, and text content. When pressed, the button smoothly swipes to the right and changes its text content.
+Button Swap Animation is a React Native component that allows users to perform an action by swiping a button. It provides a visually appealing way to engage users.
+
+## Installation
+
+Install the Button Swap Animation component in your React Native project using npm or yarn:
+
+```bash
+npm install --save react-native-button-swap-animation
+# or
+yarn add react-native-button-swap-animation
+```
 
 ## Usage
 
-```jsx
-import React from "react";
-import ButtonSwapAnimation from "./ButtonSwapAnimation"; 
+Import the component in your React Native file and use it as follows:
 
-const App = () => {
+```jsx
+import React from 'react';
+import ButtonSwapAnimation from 'react-native-button-swap-animation';
+
+const MyComponent = () => {
+  const handleSwipeComplete = () => {
+    // Your action to perform when the swipe is completed
+    console.log('Swipe completed!');
+  };
+
   return (
     <ButtonSwapAnimation
-      PressTitle="Press me"
-      onPressTitle="Confirmed"
-      bgColorName="blue"
-      activeOpacity={0.8}
+      backgroundColor="blue"
+      circleColor="red"
+      imageUrl={require('./path/to/your/image.png')}
+      onPress={handleSwipeComplete}
     />
   );
 };
 
-export default App;
+export default MyComponent;
 ```
 
 ## Props
 
-- **PressTitle** (string, required): The initial text content of the button.
-- **onPressTitle** (string, optional): The text content to be displayed after the button is pressed. If not provided, the default value is "Confirmed."
-- **bgColorName** (string, optional): The background color of the button. Default is "blue."
-- **activeOpacity** (number, optional): The opacity of the button when it is pressed. Default is 0.8.
-
-## Example
-
-```jsx
-<ButtonSwapAnimation
-  PressTitle="Press me"
-  onPressTitle="Confirmed"
-  bgColorName="blue"
-  activeOpacity={0.8}
-/>
-```
-
-## Styles
-
-- **container**: Style for the main container of the component.
-- **buttonText**: Style for the text inside the button.
-
+- `backgroundColor` (optional): Background color of the swipe button container. Defaults to 'grey'.
+- `circleColor` (optional): Color of the swiping circle. Defaults to 'white'.
+- `imageUrl` (optional): Image source for the content inside the swiping circle.
+- `onPress` (optional): Callback function to be executed when the swipe is completed.

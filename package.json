@@ -1,8 +1,8 @@
 {
   "name": "react-native-button-swapanimation",
-  "version": "1.2.1",
+  "version": "1.4.1",
   "description": "# Button Swap Animation",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
