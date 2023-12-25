@@ -1,6 +1,6 @@
 {
   "name": "react-native-button-swapanimation",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "# Button Swap Animation",
   "main": "index.tsx",
   "scripts": {
